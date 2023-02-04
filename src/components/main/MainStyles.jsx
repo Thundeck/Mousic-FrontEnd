@@ -4,7 +4,8 @@ import {StyleSheet} from "react-native";
 
 const s = StyleSheet.create({
   view:{
-    backgroundColor:"#009",
+    flex:1,
+    background:"none",
 }
 })
 

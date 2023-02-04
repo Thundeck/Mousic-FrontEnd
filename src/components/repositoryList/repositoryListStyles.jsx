@@ -3,11 +3,6 @@ import {StyleSheet} from "react-native";
 
 
 const s = StyleSheet.create({
-  list:{
-    display:"flex",
-    flexDirection:"row",
-    flexWrap:"wrap"
-  },
   view:{
     width:190,
     padding:20,
@@ -15,7 +10,7 @@ const s = StyleSheet.create({
     paddingTop:5,
     flexDirection:"column",
     justifyContent:"center",
-    backgroundColor: "red"
+    background: "none"
 },
   img:{
     width:150,
@@ -23,10 +18,16 @@ const s = StyleSheet.create({
     borderRadius:100
   },
   cont:{
+    color:"#fff",
     flexDirection:"column",
     alignItems:"center",
     alignContent:"center",
     justifyContent:"center"
+  },
+  text:{
+    color:"#fff",
+    fontSize:14,
+    fontWeight:"900"
   }
 })
 

@@ -14,8 +14,8 @@ const s = StyleSheet.create({
     height: 70,
 },
 text:{
-    color:"#000",
-    fontSize:17,
+    color:"#fff",
+    fontSize:20,
     fontWeight:"bold",
 }
 })
