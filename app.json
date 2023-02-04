@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77cee2b1-2887-4d8c-87c6-2a8ae5ca4912"
+      }
+    },
+    "owner": "thundeck"
   }
 }
