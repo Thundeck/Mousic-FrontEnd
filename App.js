@@ -1,9 +1,17 @@
 import React from 'react';
 import { Main } from './src/components/main/Main';
+import { NativeRouter as Router} from 'react-router-native';
+import { Provider } from 'react-redux';
+import store from './src/Redux/store'
+
 
 export default function App() {
   return (
-  <Main />
+    <Provider store={store}>
+      <Router>
+        <Main />
+      </Router>
+    </Provider>
   );
 }
 
